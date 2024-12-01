@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+      padding: 0 15px;
+  }
+  input {
+      width: 100% !important;
+  }
+  .text-white {
+      text-align: center;
+  }
+}
+
+.completed-task {
+  text-decoration: line-through;
+  opacity: 0.6; /* Optional: to make the completed tasks less prominent */
+}
+
